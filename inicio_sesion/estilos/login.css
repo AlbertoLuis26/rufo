@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#fondo{
+  position: relative;
+   display: table;
+   width: 100%;
+   height: 663px;
+   background: url("../../imagen/fondo.jpg") no-repeat;
+   background-size: cover;
+
+}
+#fondo::before{
+  content: "";
+  position: absolute;
+  background-color:black;
+   opacity: 0.4;
+   width: 100%;
+   height: 663px;
+
+}
+#login{
+  margin-top: 4rem;
+  margin-left: 58rem;
+  display: grid;
+  width: 22rem;
+  place-items: center;
+  border-radius: 5px;
+  padding-left: 2rem;
+  padding-right: 2.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #fff;
+
+position: relative;
+
+}
+.input{
+  font-weight: bold;
+  font-style: oblique;
+  margin-top: 3px;
+  display: block;
+  width: 20.5rem;
+  text-indent: 5px;
+  /*padding-left: 5rem;*/
+  padding-top: 9px;
+  padding-bottom: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #AAAAAA;
+
+}
+
+select{
+  font-weight: bold;
+  font-style: oblique;
+  margin-top: 3px;
+  display: block;
+  width: 20.5rem;
+  text-indent: 5px;
+  /*padding-left: 5rem;*/
+  padding-top: 8px;
+  padding-bottom: 9px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #AAAAAA;
+
+}
+label{
+  font-size: 14px;
+  font-weight: bold;
+  font-family: serif;
+
+  margin-bottom: 20px;
+}
+.input-icono ,.select-icono{
+  display: flex;
+  align-items: center;
+}
+.input:focus, select{
+  border: 1px solid;
+  box-shadow: 2px;
+  outline-color: #85C1E9 ;
+  box-shadow: 1px 1px 5px #85C1E9;
+}
+i{
+  color: #484848;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ccc;
+  margin-top: 4px;
+  border-left: 1px solid #AAAAAA;
+  border-top: 1px solid #AAAAAA;
+  border-bottom: 1px solid #AAAAAA;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.submit{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: #2874A6  ;
+  color: #fff;
+  margin-top: 25px;
+  width: 23rem;
+  border-radius: 5px;
+  border: 1px solid #1A5276;
+}
+a{
+  text-decoration: none;
+}
+.link{
+
+  /*white-space:pre;*/
+  margin-top: 20px;
+  display: flex;
+}
+.error{
+  text-align: center;
+  width: 26.5rem;
+  
+  bottom: 35rem;
+  position: absolute;
+  left:58rem;
+  color: #FF2121 ;
+  font-size: 20px;
+}
+a{
+  color:#2980B9;
+}

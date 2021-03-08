@@ -1,0 +1,14 @@
+parametros para la creacion de pdf con fpdf
+Cell(ancho, Alto, texto, borde, salto de linea, alineacion de texto,relleno para el color 1(true) o 0(false))
+Aclaramos que borde puede tomar los valores 1: con border y 0 sin borde.
+Salto de linea 1 saltar linea y 0: no saltar linea. En este caso para que sea comprensible hemos identificado el salto
+ de linea, pero debería ir sin texto y sin borde.
+
+Rect(x , y, ancho, alto, 'F') F rellena con el color elegido
+Line(x1, y1, x2, y2) que sale de la esquina superior izquierda
+posicion hacia los lados, posicion de arriba hacia abajo, ancho de la linea, posicion de la linea
+
+image(ruta,posicionx,posiciony,ancho,alto,tipo,link)
+write(espaciado entre texto,'texto a escribir') 
+text(espaciado horizontal, espaciado vertical,texto)
+MultiCell(Ancho, alto, texto ,borde, aliniacion del texto, color de fondo)
